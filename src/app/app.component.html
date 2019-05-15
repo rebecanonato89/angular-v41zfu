@@ -4,6 +4,12 @@
 <div *ngIf="formConcluidoErro" class="cadastro-concluido-card2 fadeIn">
 	<h1 class="title-pop-up">{{ resp }}</h1>
 </div>
-<button mat-icon-button>
-  <mat-icon matSuffix (click)="inserir()">add_circle_outline</mat-icon>
+<button mat-button (click)="inserir()">
+  Sucesso
+</button>
+<br />
+<br />
+<br />
+<button mat-button (click)="inserir2()">
+  Erro
 </button>
