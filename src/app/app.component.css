@@ -1,0 +1,83 @@
+.cadastro-concluido-card {
+  top: 30%;
+  left: 38%;
+  width: 25%;
+  height: 5%;
+  align-self: center;
+  position: absolute;
+  margin: 0 auto;
+  border-radius: 60px 60px 60px 60px;
+  min-height: fit-content;
+  box-shadow: 1px 5px 3px gray;
+  background-color: #9EF0A9;
+  align-content: center;
+}
+
+.cadastro-concluido-card2 {
+  top: 30%;
+  left: 38%;
+  width: 25%;
+  height: 5%;
+  align-self: center;
+  position: absolute;
+  margin: 0 auto;
+  border-radius: 60px 60px 60px 60px;
+  min-height: fit-content;
+  box-shadow: 1px 5px 3px gray;
+  background-color: rgb(240, 158, 158);
+  align-content: center;
+}
+
+.title-pop-up {
+  color: #000000;
+  font-family: 'Microsoft-yahei';
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+  font-size: 20px;
+  align-content: center;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.fadeIn {
+  -webkit-animation: fadeIn 3s ease-in-out;
+  -moz-animation: fadeIn 3s ease-in-out;
+  -o-animation: fadeIn 3s ease-in-out;
+  animation: fadeIn 3s ease-in-out;
+}
+
