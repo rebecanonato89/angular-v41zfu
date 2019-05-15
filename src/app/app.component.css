@@ -1,4 +1,38 @@
-.cadastro-concluido-card {
+
+@keyframes hide {
+  from { opacity: 1 }
+  to   { opacity: 0 }
+}
+
+.alert-box {
+  animation: hide 2s 2s forwards;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid transparent;
+  border-radius: 60px 60px 60px 60px;
+}
+
+.success {
+  background-color:  #9EF0A9;
+  border-color: #d6e9c6
+}
+
+.error {
+  background-color: rgb(240, 158, 158);
+  border-color: #e9cec6
+}
+
+.title-pop-up {
+  color: #000000;
+  font-family: 'Microsoft-yahei';
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+  font-size: 20px;
+  align-content: center;
+}
+
+/*.cadastro-concluido-card {
   top: 30%;
   left: 38%;
   width: 25%;
@@ -25,16 +59,6 @@
   min-height: fit-content;
   box-shadow: 1px 5px 3px gray;
   background-color: rgb(240, 158, 158);
-  align-content: center;
-}
-
-.title-pop-up {
-  color: #000000;
-  font-family: 'Microsoft-yahei';
-  text-align: center;
-  margin: 0 auto;
-  padding-top: 10px;
-  font-size: 20px;
   align-content: center;
 }
 
@@ -81,3 +105,4 @@
   animation: fadeIn 3s ease-in-out;
 }
 
+*/

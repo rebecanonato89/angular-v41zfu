@@ -1,7 +1,7 @@
-<div *ngIf="formConcluido" class="cadastro-concluido-card fadeIn">
-	<h1 class="title-pop-up">Cadastro Realizado com Sucesso</h1>
+<div *ngIf="formConcluido"  class="alert-box success">
+	<h1 class="title-pop-up"> Cadastro Realizado com Sucesso</h1>
 </div>
-<div *ngIf="formConcluidoErro" class="cadastro-concluido-card2 fadeIn">
+<div *ngIf="formConcluidoErro" class="alert-box error">
 	<h1 class="title-pop-up">{{ resp }}</h1>
 </div>
 <button mat-button (click)="inserir()">
