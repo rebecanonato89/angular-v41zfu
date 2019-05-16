@@ -4,12 +4,23 @@
   to   { opacity: 0 }
 }
 
+/*.alert-box {
+  animation: hide 2s 2s forwards;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid transparent;
+  border-radius: 60px 60px 60px 60px;
+}*/
+
 .alert-box {
   animation: hide 2s 2s forwards;
   padding: 5px;
   margin-bottom: 5px;
   border: 1px solid transparent;
   border-radius: 60px 60px 60px 60px;
+  position: absolute;
+  z-index: 10;
+  margin-left: 25%;
 }
 
 .success {
